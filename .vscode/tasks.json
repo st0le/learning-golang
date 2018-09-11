@@ -4,9 +4,14 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "go run",
+            "label": "Run Go File",
             "type": "shell",
-            "command": "go run ${file}"
+            "command": "go run ${file}",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         }
     ]
 }

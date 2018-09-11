@@ -31,6 +31,7 @@ func main() {
 			c++
 			if c == 10001 {
 				fmt.Println(c, i)
+				break
 			}
 		}
 	}
